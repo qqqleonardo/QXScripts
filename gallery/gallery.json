@@ -1,0 +1,10 @@
+{
+  "name": "QX-Gallery",
+  "task": [
+    {
+      "config": "10 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/Aptamil.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=爱他美官方商城, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/Aptamil.snippet"
+    }
+  ],
+  "description": "整理的一些自用脚本"
+}
