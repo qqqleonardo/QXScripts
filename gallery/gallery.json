@@ -2,8 +2,40 @@
   "name": "QX-Gallery",
   "task": [
     {
+      "config": "0 6 * * * https://raw.githubusercontent.com/xzxxn777/Surge/refs/heads/main/Script/Colorful/Colorful.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=七彩虹, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/colorful.snippet"
+    },
+    {
+      "config": "04 6 * * * https://raw.githubusercontent.com/xzxxn777/Surge/refs/heads/main/Script/INSTAX/INSTAX.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=INSTAX, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/instax.snippet"
+    },
+    {
+      "config": "02 6 * * * https://raw.githubusercontent.com/xzxxn777/Surge/refs/heads/main/Script/JDFLS/JDFLS.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=INSTAX, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/JDFLS.snippet"
+    },
+    {
       "config": "10 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/Aptamil.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=爱他美官方商城, enabled=true",
       "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/Aptamil.snippet"
+    },
+    {
+      "config": "10 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/Aptamil.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=爱他美官方商城, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/Aptamil.snippet"
+    },
+    {
+      "config": "12 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/DHX.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=稻花香, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/DHX.snippet"
+    },
+    {
+      "config": "15 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/DK.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=杜康会员俱乐部, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/DK.snippet"
+    },
+    {
+      "config": "18 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/GLJJ.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=国乐酱酒小程序, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/GLJJ.snippet"
+    },
+    {
+      "config": "18 6 * * * https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/scripts/YSHY.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=仰韶会员俱乐部小程序, enabled=true",
+      "addons": "https://raw.githubusercontent.com/qqqleonardo/QXScripts/refs/heads/main/addons/YSHY.snippet"
     }
   ],
   "description": "整理的一些自用脚本"
