@@ -1,0 +1,5 @@
+[MITM]
+hostname = https://wecom-frontapi.aptamil.com.cn
+
+[rewrite_local]
+^https:\/\/wecom-frontapi\.aptamil\.com\.cn\/api\/member\/queryMemberByUserId url script-request-header https://raw.githubusercontent.com/qqqleonardo/scripts/refs/heads/main/Aptamil.js
